@@ -13,4 +13,4 @@ COPY --chown=crowd:crowd ./keytool.sh /
 RUN chmod +x /keytool.sh
 
 EXPOSE 8095 8443
-ENTRYPOINT ["/keytool.sh"]
+ENTRYPOINT ["/certificate.sh"]
